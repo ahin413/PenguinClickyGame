@@ -1,0 +1,63 @@
+.navbar {
+    background: #7dd2fa;
+    min-height: 70px;
+    font-size: 18px;
+    padding: 20px 0;
+    width: 100%;
+    color: rgb(242, 244, 248);
+ 
+    
+  }
+  
+  .navbar div {
+    text-align: center;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  
+  .navbar div:first-child {
+    letter-spacing: 1px;
+    font-weight: 900;
+  }
+  
+  .userScore {
+    margin: 0 10px;
+  }
+  
+  .correct {
+    animation: correctGuess 0.5s;
+  }
+  .incorrect {
+    animation: incorrectGuess 0.5s;
+  }
+  
+  @keyframes incorrectGuess {
+    0% {
+      color: white;
+    }
+    25% {
+      color: red;
+    }
+    75% {
+      color: red;
+    }
+    100% {
+      color: white;
+    }
+  }
+  
+  @keyframes correctGuess {
+    0% {
+      color: white;
+    }
+    25% {
+      color: yellow;
+    }
+    75% {
+      color: yellow;
+    }
+    100% {
+      color: white;
+    }
+  }
+  
