@@ -7,21 +7,9 @@
   body{
       background-image: url(/icebergs-2229887.jpg);
   }
-  
-  @media (min-width: 1100px) {
-    .container {
-      padding: 0 100px;
-      width: 1100px;
-    }
-  }
-  
-  .container {
-    transform: translate3d(0, 0, 0);
-    backface-visibility: hidden;
-    perspective: 1000px;
-  }
 
-  /*shake animation for clicks*/
+
+
   .shake {
     animation: shaker 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
   }

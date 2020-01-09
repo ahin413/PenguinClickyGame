@@ -1,7 +1,7 @@
 .navbar {
     background: #7dd2fa;
     min-height: 70px;
-    font-size: 18px;
+    font-size: 24px;
     padding: 20px 0;
     width: 100%;
     color: rgb(242, 244, 248);
@@ -31,33 +31,4 @@
     animation: incorrectGuess 0.5s;
   }
   
-  @keyframes incorrectGuess {
-    0% {
-      color: white;
-    }
-    25% {
-      color: red;
-    }
-    75% {
-      color: red;
-    }
-    100% {
-      color: white;
-    }
-  }
-  
-  @keyframes correctGuess {
-    0% {
-      color: white;
-    }
-    25% {
-      color: yellow;
-    }
-    75% {
-      color: yellow;
-    }
-    100% {
-      color: white;
-    }
-  }
-  
+ 
